@@ -22,7 +22,7 @@ const Footer = () => {
               </svg>
               <div className="flex flex-col">
                 <span className="font-sans font-bold text-lg tracking-widest text-slate-100 leading-none">
-                  INVERS<span className="text-secondary font-light">Λ</span>
+                  AGENCIA
                 </span>
                 <span className="font-sans text-[8px] tracking-[0.25em] text-slate-400 uppercase -mt-0.5">
                   Bienes Raíces
@@ -77,7 +77,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-4 text-xs font-bold uppercase tracking-widest text-slate-300">
               <a
-                href="https://www.instagram.com/inversa.bienes.raices/"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-secondary transition-colors"
@@ -99,7 +99,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-slate-900 flex flex-col sm:flex-row justify-between items-center gap-4 text-[10px] text-slate-500 uppercase tracking-widest">
-          <span>© {new Date().getFullYear()} INVERSA BIENES RAÍCES. TODOS LOS DERECHOS RESERVADOS.</span>
+          <span>© {new Date().getFullYear()} AGENCIA. TODOS LOS DERECHOS RESERVADOS.</span>
           <button
             onClick={handleScrollTop}
             className="flex items-center gap-1.5 hover:text-secondary transition-colors bg-slate-900 border border-slate-800 hover:border-secondary/40 py-2 px-4 rounded-full"

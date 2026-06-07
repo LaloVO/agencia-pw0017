@@ -11,7 +11,7 @@ export default function PropertiesPage() {
   return (
     <>
       <Helmet>
-        <title>Portafolio Exclusivo | Inversa Bienes Raíces</title>
+        <title>Portafolio Exclusivo | Agencia</title>
         <meta
           name="description"
           content="Explora nuestra colección selecta de propiedades residenciales, comerciales e industriales en México."

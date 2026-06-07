@@ -66,7 +66,7 @@ const Navbar = () => {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="flex items-center group focus:outline-none"
           >
-            {/* SVG Logo exacto con carets de Inversa */}
+            {/* SVG Logo exacto con carets de Agencia */}
             <svg
               className="w-8 h-8 text-secondary mr-2 transition-transform duration-500 group-hover:rotate-180"
               viewBox="0 0 100 100"
@@ -78,7 +78,7 @@ const Navbar = () => {
             </svg>
             <div className="flex flex-col">
               <span className="font-sans font-bold text-lg md:text-xl tracking-widest text-primary leading-none">
-                INVERS<span className="text-secondary font-light">Λ</span>
+                AGENCIA
               </span>
               <span className="font-sans text-[8px] tracking-[0.25em] text-muted-foreground uppercase -mt-0.5">
                 Bienes Raíces
@@ -151,7 +151,7 @@ const Navbar = () => {
                   <path d="M50 85L15 55H30L50 73L70 55H85L50 85Z" fill="currentColor" />
                 </svg>
                 <span className="font-sans font-bold tracking-widest text-primary leading-none text-base">
-                  INVERS<span className="text-secondary font-light">Λ</span>
+                  AGENCIA
                 </span>
               </div>
               <button
@@ -198,7 +198,7 @@ const Navbar = () => {
               <ArrowRight className="w-4 h-4" />
             </Link>
             <div className="text-center mt-6 text-[10px] tracking-widest text-muted-foreground uppercase font-sans">
-              INVERSA BIENES RAÍCES © {new Date().getFullYear()}
+              AGENCIA © {new Date().getFullYear()}
             </div>
           </div>
         </div>

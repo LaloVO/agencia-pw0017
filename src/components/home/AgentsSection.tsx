@@ -42,7 +42,7 @@ const AgentsSection = () => {
             >
               <img
                 src={user?.imagen_perfil_usuario || 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800&auto=format&fit=crop'}
-                alt={user?.nombre_usuario || 'Asesor Inversa'}
+                alt={user?.nombre_usuario || 'Asesor Agencia'}
                 className="w-full h-full object-cover grayscale transition-all duration-[1500ms] group-hover:scale-105 group-hover:grayscale-0"
               />
               {/* Bottom Glass Card Overlay */}
@@ -51,7 +51,7 @@ const AgentsSection = () => {
                   CONSULTOR ASOCIADO
                 </span>
                 <h3 className="font-sans font-bold text-base text-white mt-0.5">
-                  {user?.nombre_usuario || 'Inversa Bienes Raíces'}
+                  {user?.nombre_usuario || 'Agencia'}
                 </h3>
               </div>
             </div>
@@ -77,7 +77,7 @@ const AgentsSection = () => {
             </h2>
 
             <p className="text-slate-400 text-xs sm:text-sm leading-relaxed mb-6 font-semibold">
-              Detrás de cada operación de Inversa Bienes Raíces hay dos décadas de especialización y conocimiento profundo del mercado. Ofrecemos un servicio ejecutivo ágil y riguroso que resguarda tu patrimonio en cada firma.
+              Detrás de cada operación de Agencia hay dos décadas de especialización y conocimiento profundo del mercado. Ofrecemos un servicio ejecutivo ágil y riguroso que resguarda tu patrimonio en cada firma.
             </p>
 
             {/* Checklist */}

@@ -16,7 +16,7 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>{site?.site_name ?? 'Inversa Bienes Raíces'} | Asesoría Inmobiliaria Ejecutiva Premium</title>
+        <title>{site?.site_name ?? 'Agencia'} | Asesoría Inmobiliaria Ejecutiva Premium</title>
         <meta
           name="description"
           content="Consultoría integral y seguridad patrimonial absoluta con más de 20 años de experiencia en compra, venta, renta y administración de propiedades de alta gama."

@@ -73,14 +73,14 @@ export async function fetchSiteUser(): Promise<{ user: CBFUser; site: CBFSite }>
     return {
       user: {
         id: 'mock-advisor',
-        nombre_usuario: 'Inversa Asesoría Inmobiliaria',
-        email_usuario: 'contacto@inversabienesraices.com',
-        telefono_usuario: '525512345678',
+        nombre_usuario: 'Agencia Asesoría Inmobiliaria',
+        email_usuario: 'contacto@agencia.com',
+        telefono_usuario: '5210000000000',
         imagen_perfil_usuario: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=800&auto=format&fit=crop',
       },
       site: {
         id: 'mock-site',
-        site_name: 'Inversa Bienes Raíces',
+        site_name: 'Agencia',
         platform_config: {
           mapbox_token: 'pk.eyJ1IjoiaG9tZXB0eW14Ii' + 'wiYSI6ImNtZjlpZ3p4czBzaWUya3B6MnB1dHZ4aWoifQ.' + 'ZKWLoVLu-fVaTXRD7HfXTg',
         }
@@ -112,7 +112,7 @@ export async function fetchProperties(params?: {
   } catch (e) {
     console.warn("CBF-API: Usando fallback de propiedades mock", e);
     
-    // Mapeo del portafolio curado mock para Inversa Bienes Raíces
+    // Mapeo del portafolio curado mock para Agencia
     const mockProps: CBFProperty[] = [
       {
         id: '1',

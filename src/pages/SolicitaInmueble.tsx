@@ -11,7 +11,7 @@ export default function SolicitaInmueble() {
   return (
     <>
       <Helmet>
-        <title>Búsqueda Inteligente | {site?.site_name ?? "Inversa Bienes Raíces"}</title>
+        <title>Búsqueda Inteligente | {site?.site_name ?? "Agencia"}</title>
         <meta
           name="description"
           content="Completa nuestra solicitud inteligente de 6 pasos para encontrar tu propiedad ideal. Evaluamos tu estilo de vida para una recomendación perfecta."

@@ -59,7 +59,7 @@ const ObjectivesSection = () => {
             NUESTRAS DIRECTRICES CORE
           </h2>
           <p className="font-sans font-extrabold text-3xl sm:text-4xl text-white tracking-tight mb-4">
-            Objetivos Estratégicos Inversa
+            Objetivos Estratégicos Agencia
           </p>
           <p className="text-slate-400 text-xs sm:text-sm max-w-xl mx-auto leading-relaxed">
             Guiamos cada paso de nuestra consultoría comercial y patrimonial mediante 6 pilares inquebrantables de calidad y profesionalismo.

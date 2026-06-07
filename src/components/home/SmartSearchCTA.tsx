@@ -15,7 +15,7 @@ export default function SmartSearchCTA() {
           <div className="lg:col-span-6 space-y-6">
             <div className="inline-flex items-center gap-2 bg-secondary/10 border border-secondary/20 px-4 py-1.5 rounded-full text-[10px] font-bold text-secondary uppercase tracking-wider">
               <Sparkles className="w-3.5 h-3.5" />
-              BÚSQUEDA INTELIGENTE INVERSA
+              BÚSQUEDA INTELIGENTE AGENCIA
             </div>
             
             <h2 className="font-sans text-3xl md:text-5xl text-primary font-extrabold tracking-tight leading-tight">
